@@ -145,7 +145,7 @@ void setup() {
   status(F("Connected to network!"));
  
   // set to external mic & headphone
-  fona.setAudio(FONA_EXTAUDIO);
+  fona.setAudio(FONA_HEADSETAUDIO);
 }
 
 
@@ -194,6 +194,8 @@ void loop(void) {
             textfield[textfield_i] = buttonlabels[b][0];
             textfield_i++;
 	    textfield[textfield_i] = 0; // zero terminate
+            
+            fona.playDTMF(buttonlabels[b][0]);
           }
         }
 
