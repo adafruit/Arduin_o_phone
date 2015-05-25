@@ -145,7 +145,7 @@ void setup() {
   status(F("Connected to network!"));
  
   // set to external mic & headphone
-  fona.setAudio(FONA_HEADSETAUDIO);
+  fona.setAudio(FONA_EXTAUDIO);
 }
 
 
