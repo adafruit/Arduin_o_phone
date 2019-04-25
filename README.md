@@ -1,5 +1,8 @@
-# Arduin-o-phone
+## This repo has been archived
 
+The current code is now at https://github.com/adafruit/Adafruit_Learning_System_Guides/tree/master/Arduino_Phone
+
+## Arduin-o-phone
 
 Apple, Schmapple! Make your own phone with an Arduino & Adafruit FONA shield. This project will show you how you can use the FONA shield and a TFT shield stacked on top to make a touch-screen phone that you can program yourself.
 
